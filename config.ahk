@@ -1,6 +1,7 @@
 ; === SYMBOLS ===
 ; !   <- Alt
 ; +   <- Shift
+; ^   <- Ctrl
 ; #   <- Win
 ; For more, visit https://autohotkey.com/docs/Hotkeys.htm
 
