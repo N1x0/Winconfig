@@ -5,7 +5,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability
 
 ; Globals
-DesktopCount := 2        ; Windows starts with 2 desktops at boot
+DesktopCount := 3        ; Desktops at start
 CurrentDesktop := 1      ; Desktop count is 1-indexed (Microsoft numbers them this way)
 LastOpenedDesktop := 1
 
