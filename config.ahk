@@ -15,7 +15,6 @@ Music := "C:\Users\Nicholas.Balzer\AppData\Roaming\Spotify\Spotify.exe"
 !m::run %Music%
 !x::run "C:\Program Files (x86)\Microsoft Office\root\Office16\EXCEL.EXE"
 
-
 ; === VIRTUAL DESKTOP ACTIONS ===
 
 ;!c::createVirtualDesktop()
