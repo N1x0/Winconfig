@@ -7,8 +7,14 @@ which is why I made this repo public. The core features can be seperated into
 ## Windows configurations
 
 ### Autohotkey
- A combination of a couple of autohotkey scripts and set-ups I gathered and modified. Uses the `VirtualDesktopAccessor.dll` and basically tries to emulate the `i3wm` setup I use on Linux.
-The main purpose is for resizing windows (minimize & maximize) as well as moving them around my virtual desktops.
+ A combination of a couple of autohotkey scripts and set-ups I gathered and modified. Uses the `VirtualDesktopAccessor.dll` and basically tries to emulate the `i3wm` setup I use on Linux. The main purpose is for resizing windows (minimize & maximize) as well as moving them around my virtual desktops. From a usability perspective I tried to keep it as close to i3 as possible.
+
+* `alt+n` => switch to Desktop
+* `alt+shift+n` => move active window to Desktop
+* `alt+shift+f` => fullscreen
+* `alt+w` => browser (firefox)
+* `alt+e` => windows **e**xplorer
+
 
 ### [PowerToys](https://github.com/microsoft/PowerToys)
 Here I use mostly `FancyZones` with the remaining stuff turned off. Same as the AHK scripts the idea is to emulate my i3wm setup. The zones here are supposed to substitute the tiling approach and while they do a decent job it's still not really what I am looking for.
