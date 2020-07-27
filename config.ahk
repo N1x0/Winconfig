@@ -7,7 +7,7 @@
 
 ; === PROGRAM SHORTCUTS ===
 
-Browser := "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+Browser := "C:\Program Files\Mozilla Firefox\firefox.exe"
 Music := "C:\Users\Nicholas.Balzer\AppData\Roaming\Spotify\Spotify.exe"
 
 !w::run %Browser%
