@@ -38,7 +38,8 @@ It helps bring so much more productivity to writing VBA and I love it. The thing
 * Auto completion
 
 ### 2.Excel/Word/Outlook Quick Access Toolbar
-Probably the least useful to others but I like it, just have a look
+Probably the least useful to others but I like it, just have a look. The one that's actually being used the most is obviously the excel one. 
+I use the numpad a lot and most of these are set up in such a way that I can fully utilize this for features that otherwise would take *4+* characters
 
 ### 3. VBE Theme color editor
 A custom editor I found [here](https://github.com/dimitropoulos/VBECustomColors) on github. 
@@ -50,4 +51,6 @@ I added the dracula palette because that's what I'm currently using for cmd/powe
 
 
 ## TODO
-[] Try out[workspacer](https://www.workspacer.org/). If my `C#` holds up then I'm pretty sure I can configure it so it replaces both my AHK scripts as well as PowerToys
+- [ ] Try out[workspacer](https://www.workspacer.org/). If my `C#` holds up then I'm pretty sure I can configure it so it replaces both my AHK scripts as well as PowerToys' FancyZones
+- [ ] Refine dracula theme for **VBE**
+- [
