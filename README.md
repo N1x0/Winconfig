@@ -4,9 +4,20 @@ Personal configuration for windows 10 (1903/1909)
 This is my current setup for windows and some common MS office programs, so something like linux `dotfiles` just for windows I guess. There a few (IMO) neat things in here that may be useful to others,
 which is why I made this repo public. The core features can be seperated into
 
+Split into two seperate configurations 1 for personal and the other for work. 
+
 ## Windows configurations
 
-### Autohotkey
+### [workspacer](https://www.workspacer.org)
+A fantastic tool currently being developed. It still has quite a few limitations so I won't be using it all the time but for my setup at work it should already be sufficient.
+My biggest issues so far (and these are probably because I don't know C#):
+* Lack of documentation
+* Inability to handle full screen apps or at least most games I play
+* Cannot change focus colors of the app bar and the red really is harsh on the eyes
+* Cannot adjust window gaps in config file
+
+
+### Autohotkey 
  A combination of a couple of autohotkey scripts and set-ups I gathered and modified. Uses the `VirtualDesktopAccessor.dll` and basically tries to emulate the `i3wm` setup I use on Linux.
 The main purpose is for resizing windows (minimize & maximize) as well as moving them around my virtual desktops.
 
@@ -51,6 +62,5 @@ I added the dracula palette because that's what I'm currently using for cmd/powe
 
 
 ## TODO
-- [ ] Try out[workspacer](https://www.workspacer.org/). If my `C#` holds up then I'm pretty sure I can configure it so it replaces both my AHK scripts as well as PowerToys' FancyZones
+- [x] Try out [workspacer](https://www.workspacer.org/). If my `C#` holds up then I'm pretty sure I can configure it so it replaces both my AHK scripts as well as PowerToys' FancyZones
 - [ ] Refine dracula theme for **VBE**
-- [
