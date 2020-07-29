@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Description: dracula -->
+<VbeTheme name="dracula" desc="dracula">
+  <ThemeColors>
+    <Color colorID="1" HexColor="282A36" />
+    <Color colorID="2" HexColor="44475A" />
+    <Color colorID="3" HexColor="F8F8F2" />
+    <Color colorID="4" HexColor="6272A4" />
+    <Color colorID="5" HexColor="8BE9FD" />
+    <Color colorID="6" HexColor="50FA7B" />
+    <Color colorID="7" HexColor="FFB86C" />
+    <Color colorID="8" HexColor="FF79C6" />
+    <Color colorID="9" HexColor="FF5555" />
+    <Color colorID="10" HexColor="F1FA8C" />
+    <Color colorID="11" HexColor="9F74B1" />
+    <Color colorID="12" HexColor="E51400" />
+    <Color colorID="13" HexColor="6272A4" />
+    <Color colorID="14" HexColor="6272A4" />
+    <Color colorID="15" HexColor="608B4E" />
+    <Color colorID="16" HexColor="B5CEA8" />
+  </ThemeColors>
+</VbeTheme>
