@@ -13,8 +13,8 @@ A fantastic tool currently being developed. It still has quite a few limitations
 My biggest issues so far (and these are probably because I don't know C#):
 * Lack of documentation
 * Inability to handle full screen apps or at least most games I play
-* Cannot change focus colors of the app bar and the red really is harsh on the eyes
-* Cannot adjust window gaps in config file
+* ~~Cannot change focus colors of the app bar and the red really is harsh on the eyes~~ Yes you can and it works just fine
+* Cannot adjust window gaps in config file; __but I am looking into it__
 
 
 ### Autohotkey 
