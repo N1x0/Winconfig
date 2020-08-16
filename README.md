@@ -1,5 +1,5 @@
 # Current Configuration
-Personal configuration for windows 10 (1903/1909)
+Personal configuration for windows 10 (2004)
 
 This is my current setup for windows and some common MS office programs, so something like linux `dotfiles` just for windows I guess. There a few (IMO) neat things in here that may be useful to others,
 which is why I made this repo public. The core features can be seperated into
