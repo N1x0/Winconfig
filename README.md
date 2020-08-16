@@ -1,29 +1,26 @@
-# Windows Configurations
+# Current Configuration
 Personal configuration for windows 10 (1903/1909)
 
 This is my current setup for windows and some common MS office programs, so something like linux `dotfiles` just for windows I guess. There a few (IMO) neat things in here that may be useful to others,
 which is why I made this repo public. The core features can be seperated into
 
 Split into two seperate configurations 1 for personal and the other for work. 
-
-## Windows configurations
+## OS configurations
 
 ### [workspacer](https://www.workspacer.org)
-A fantastic tool currently being developed. It still has quite a few limitations so I won't be using it all the time but for my setup at work it should already be sufficient.
+A fantastic tool currently being developed. It still has a couple of limitations that make it a bit troublesome at times but overall it's quite good and does what I need it to.
 My biggest issues so far (and these are probably because I don't know C#):
-* Lack of documentation
-* Inability to handle full screen apps or at least most games I play
+* Lack of documentation (I just read most of the source code and will do my best to update the documentation so you won't have to)
+* No dynamic reassignment of workspaces to available monitors, i.e. if I disconnect my laptop from my monitor (or there is any other screen change) then it'll just quit
 * ~~Cannot change focus colors of the app bar and the red really is harsh on the eyes~~ Yes you can and it works just fine
 * Cannot adjust window gaps in config file; __but I am looking into it__
 
-
-### Autohotkey 
- A combination of a couple of autohotkey scripts and set-ups I gathered and modified. Uses the `VirtualDesktopAccessor.dll` and basically tries to emulate the `i3wm` setup I use on Linux.
-The main purpose is for resizing windows (minimize & maximize) as well as moving them around my virtual desktops.
-
-### [PowerToys](https://github.com/microsoft/PowerToys)
-Here I use mostly `FancyZones` with the remaining stuff turned off. Same as the AHK scripts the idea is to emulate my i3wm setup. The zones here are supposed to substitute the tiling approach and while they do a decent job it's still not really what I am looking for.
-
+ ### [ThrottleStop](https://www.techpowerup.com/download/techpowerup-throttlestop/)
+ An undervolting utility similar (but better than) Intel XTU. I use a laptop with an i7-7700HQ at home which, while decent performance wise, gets pretty hot for my liking. I leave almost everything at default and only play with the CPU/Cache & IGPU resulting in about 8-10 degrees lower temperatures.
+ 
+     * CPU & Cache: -125 mV
+     * IGPU:        -50  mV
+ 
  
 ### Dracula Terminal themes
 Does what it says.. Dracula themes for `cmd` and `powershell`
@@ -62,5 +59,15 @@ I added the dracula palette because that's what I'm currently using for cmd/powe
 
 
 ## TODO
-- [x] Try out [workspacer](https://www.workspacer.org/). If my `C#` holds up then I'm pretty sure I can configure it so it replaces both my AHK scripts as well as PowerToys' FancyZones
+- [x] Try out [workspacer](https://www.workspacer.org/)
 - [ ] Refine dracula theme for **VBE**
+
+
+# Previously Used
+
+### Autohotkey  
+ A combination of a couple of autohotkey scripts and set-ups I gathered and modified. Uses the `VirtualDesktopAccessor.dll` and basically tries to emulate the `i3wm` setup I use on Linux.
+The main purpose is for resizing windows (minimize & maximize) as well as moving them around my virtual desktops.
+
+### [PowerToys](https://github.com/microsoft/PowerToys)
+Here I use mostly `FancyZones` with the remaining stuff turned off. Same as the AHK scripts the idea is to emulate my i3wm setup. The zones here are supposed to substitute the tiling approach and while they do a decent job it's still not really what I am looking for.
