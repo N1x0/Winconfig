@@ -9,11 +9,13 @@ Split into two seperate configurations 1 for personal and the other for work.
 
 ### [workspacer](https://www.workspacer.org)
 A fantastic tool currently being developed. It still has a couple of limitations that make it a bit troublesome at times but overall it's quite good and does what I need it to.
-My biggest issues so far (and these are probably because I don't know C#):
+My biggest issues so far:
 * Lack of documentation (I just read most of the source code and will do my best to update the documentation so you won't have to)
-* No dynamic reassignment of workspaces to available monitors, i.e. if I disconnect my laptop from my monitor (or there is any other screen change) then it'll just quit
-* ~~Cannot change focus colors of the app bar and the red really is harsh on the eyes~~ Yes you can and it works just fine
-* Cannot adjust window gaps in config file; __but I am looking into it__
+* No dynamic reassignment of ` sticky workspaces` to available monitors, i.e. if I disconnect my laptop from my monitor (or there is any other screen change) then it'll just quit
+ * Working on this currently
+* Cannot __easily__ adjust window gaps in config file; 
+ * I already found a way to adjust one of the `LayoutEngines (TallLayoutEngine)` but I don't really like the way I did it and it's not easily set in the config file so I might revisit this eventually
+
 
  ### [ThrottleStop](https://www.techpowerup.com/download/techpowerup-throttlestop/)
  An undervolting utility similar (but better than) Intel XTU. I use a laptop with an i7-7700HQ at home which, while decent performance wise, gets pretty hot for my liking. I leave almost everything at default and only play with the CPU/Cache & IGPU resulting in about 8-10 degrees lower temperatures.
