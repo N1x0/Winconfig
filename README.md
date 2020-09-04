@@ -1,10 +1,7 @@
 # Current Configuration
 Personal configuration for windows 10 (2004)
 
-This is my current setup for windows and some common MS office programs, so something like linux `dotfiles` just for windows I guess. There a few (IMO) neat things in here that may be useful to others,
-which is why I made this repo public. The core features can be seperated into
-
-Split into two seperate configurations 1 for personal and the other for work. 
+This is my current setup for windows and some common MS office programs, so something like linux `dotfiles` just for windows I guess. There a few (IMO) neat things in here that may be useful to others, hich is why I made this repo public. The core features can be split into two seperate configurations, 1 for personal and the other for work. 
 ## OS configurations
 
 ### [workspacer](https://www.workspacer.org)
@@ -47,9 +44,11 @@ It helps bring so much more productivity to writing VBA and I love it. The thing
   * just tons of ways on how to improve you code, make it more readable and more robust
 * Auto completion
 
-### 2.Excel/Word/Outlook Quick Access Toolbar
-Probably the least useful to others but I like it, just have a look. The one that's actually being used the most is obviously the excel one. 
-I use the numpad a lot and most of these are set up in such a way that I can fully utilize this for features that otherwise would take *4+* characters
+### 2.Excel/Word/Outlook/Powerpoint
+* Quick-access toolbars: Probably the least useful to others but I like it, just have a look. The one that's actually being used the most is obviously the excel one. I use the numpad a lot and most of these are set up in such a way that I can fully utilize this for features that otherwise would take *4+* characters
+
+* Powerpoint Slide numbering add-in:
+    * A small macro I wrote that *before saving* adjusts the slide numbers based on the number of *visible* slides. I had this issue in the past that when exporting Powerpoint to PDF some slides were hidden but the slide numbers didn't update accordingly. This meant that in the PDF you'd "randomly" jump from slide 5 to 10 for instance. Since in most of my templates I have many optional slides that users can simply hide I found this to be a decent way for PDF's to still be consistent in numbering. Just save the file and then print/export it and the slide numbers will look like there were never any hidden slides ;).
 
 ### 3. VBE Theme color editor
 A custom editor I found [here](https://github.com/dimitropoulos/VBECustomColors) on github. 
